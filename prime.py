@@ -20,7 +20,7 @@ def check_prime(number):
         ans = f"{number} is a prime number"
     else:
         factors = []
-        for x in range (1, number):
+        for x in range (1, number+1):
             if not number % x:
                 factors.append(x)
         ans = f"{number} is not a prime number. {factors}"
