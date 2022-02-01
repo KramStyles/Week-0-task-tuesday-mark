@@ -6,7 +6,7 @@ def check_prime(number):
     """
 
     if type(number) != int and type(number) != float:
-        ans = "Only number inputs allowed"
+        return "Only number inputs allowed"
     else:
         ans = True
         if number <= 1 and number % 2 == 0 and number != 2:
@@ -31,4 +31,4 @@ def check_prime(number):
 
     
 
-print(check_prime(100))
+print(check_prime(101))
